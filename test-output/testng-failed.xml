@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AutoTest]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="https://phptravels.com/demo/"/>
+  <test thread-count="5" name="Header Test(failed)">
+    <classes>
+      <class name="com.selenium.test.TestPHP">
+        <methods>
+          <include name="testSubMenu_Hosting"/>
+          <include name="initiateBrowserTest"/>
+          <include name="testTitle"/>
+          <include name="setupPage"/>
+          <include name="testMenu"/>
+        </methods>
+      </class> <!-- com.selenium.test.TestPHP -->
+    </classes>
+  </test> <!-- Header Test(failed) -->
+</suite> <!-- Failed suite [AutoTest] -->

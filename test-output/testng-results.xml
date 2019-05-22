@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-04-01T22:58:30Z" name="AutoTest" finished-at="2019-04-01T22:59:17Z" duration-ms="46312">
+    <groups>
+      <group name="headertest">
+        <method signature="TestPHP.testMenu()[pri:0, instance:com.selenium.test.TestPHP@41a2befb]" name="testMenu" class="com.selenium.test.TestPHP"/>
+        <method signature="TestPHP.testSubMenu_Features()[pri:0, instance:com.selenium.test.TestPHP@41a2befb]" name="testSubMenu_Features" class="com.selenium.test.TestPHP"/>
+        <method signature="TestPHP.testSubMenu_Hosting()[pri:0, instance:com.selenium.test.TestPHP@41a2befb]" name="testSubMenu_Hosting" class="com.selenium.test.TestPHP"/>
+        <method signature="TestPHP.testSubMenu_Product()[pri:0, instance:com.selenium.test.TestPHP@41a2befb]" name="testSubMenu_Product" class="com.selenium.test.TestPHP"/>
+      </group> <!-- headertest -->
+      <group name="setup">
+        <method signature="TestPHP.initiateBrowserTest(java.lang.String, java.lang.String)[pri:0, instance:com.selenium.test.TestPHP@41a2befb]" name="initiateBrowserTest" class="com.selenium.test.TestPHP"/>
+        <method signature="TestPHP.setupPage()[pri:0, instance:com.selenium.test.TestPHP@41a2befb]" name="setupPage" class="com.selenium.test.TestPHP"/>
+        <method signature="TestPHP.testTitle()[pri:0, instance:com.selenium.test.TestPHP@41a2befb]" name="testTitle" class="com.selenium.test.TestPHP"/>
+      </group> <!-- setup -->
+    </groups>
+    <test started-at="2019-04-01T22:58:30Z" name="Header Test" finished-at="2019-04-01T22:59:17Z" duration-ms="46312">
+      <class name="com.selenium.test.TestPHP">
+        <test-method signature="initiateBrowserTest(java.lang.String, java.lang.String)[pri:0, instance:com.selenium.test.TestPHP@41a2befb]" started-at="2019-04-01T22:58:30Z" name="initiateBrowserTest" finished-at="2019-04-01T22:58:37Z" duration-ms="6240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://phptravels.com/demo/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateBrowserTest -->
+        <test-method signature="setupPage()[pri:0, instance:com.selenium.test.TestPHP@41a2befb]" started-at="2019-04-01T22:58:37Z" name="setupPage" finished-at="2019-04-01T22:58:42Z" depends-on-methods="com.selenium.test.TestPHP.initiateBrowserTest" duration-ms="5172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPage -->
+        <test-method signature="testTitle()[pri:0, instance:com.selenium.test.TestPHP@41a2befb]" started-at="2019-04-01T22:58:42Z" name="testTitle" finished-at="2019-04-01T22:58:42Z" depends-on-methods="com.selenium.test.TestPHP.setupPage" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitle -->
+        <test-method signature="testMenu()[pri:0, instance:com.selenium.test.TestPHP@41a2befb]" started-at="2019-04-01T22:58:42Z" name="testMenu" depends-on-groups="setup" finished-at="2019-04-01T22:58:42Z" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMenu -->
+        <test-method signature="validateScreenLinks()[pri:0, instance:com.selenium.test.TestPHP@41a2befb]" started-at="2019-04-01T22:58:43Z" name="validateScreenLinks" depends-on-groups="setup" finished-at="2019-04-01T22:59:16Z" duration-ms="33742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateScreenLinks -->
+        <test-method signature="testSubMenu_Features()[pri:0, instance:com.selenium.test.TestPHP@41a2befb]" started-at="2019-04-01T22:59:16Z" name="testSubMenu_Features" finished-at="2019-04-01T22:59:16Z" depends-on-methods="com.selenium.test.TestPHP.testMenu" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubMenu_Features -->
+        <test-method signature="testSubMenu_Hosting()[pri:0, instance:com.selenium.test.TestPHP@41a2befb]" started-at="2019-04-01T22:59:16Z" name="testSubMenu_Hosting" finished-at="2019-04-01T22:59:17Z" depends-on-methods="com.selenium.test.TestPHP.testMenu" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubMenu_Hosting -->
+        <test-method signature="testSubMenu_Product()[pri:0, instance:com.selenium.test.TestPHP@41a2befb]" started-at="2019-04-01T22:59:17Z" name="testSubMenu_Product" finished-at="2019-04-01T22:59:17Z" depends-on-methods="com.selenium.test.TestPHP.testMenu" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubMenu_Product -->
+      </class> <!-- com.selenium.test.TestPHP -->
+    </test> <!-- Header Test -->
+  </suite> <!-- AutoTest -->
+</testng-results>
